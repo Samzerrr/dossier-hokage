@@ -309,7 +309,7 @@ function App() {
                 </div>
                 <div style={{ background: 'rgba(255, 61, 0, 0.05)', padding: '0.8rem', borderRadius: '4px' }}>
                   <strong style={{ color: '#ff3d00', display: 'block', fontSize: '0.8rem', marginBottom: '0.3rem' }}>RÉALITÉ CACHÉE</strong>
-                  <p style={{ fontSize: '0.9rem', color: '#ccc' }}>Pouvoir clanique à éviter. Maintient une distance politique prudente.</p>
+                  <p style={{ fontSize: '0.9rem', color: '#ccc' }}>Pouvoir Mokuton à éviter. Maintient une distance politique prudente.</p>
                 </div>
               </div>
             </div>
