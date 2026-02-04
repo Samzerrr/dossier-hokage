@@ -330,9 +330,6 @@ function App() {
                   <p style={{ fontSize: '0.9rem', color: '#ccc' }}>Il se méfie de leur capacité à comprendre ses manœuvres. Il les garde proches pour leurs stratégies, mais ne leur donne jamais toutes les informations.</p>
                 </div>
               </div>
-              <div style={{ marginTop: '0.8rem', padding: '0.5rem', background: 'rgba(76, 175, 80, 0.1)', borderLeft: '3px solid #4caf50', fontSize: '0.85rem', color: '#aaa' }}>
-                ➡️ <strong style={{ color: '#4caf50' }}>Coopération utile, confiance limitée.</strong>
-              </div>
             </div>
 
           </div>
