@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: dossier-hokage
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+
