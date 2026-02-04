@@ -317,7 +317,7 @@ function App() {
             {/* NARA */}
             <div className="clan-entry">
               <h3 style={{ borderBottom: '1px solid #4caf50', paddingBottom: '0.5rem', marginBottom: '1rem', display: 'flex', justifyContent: 'space-between' }}>
-                <span style={{ color: '#fff' }}>🧠 CLAN NARA</span>
+                <span style={{ color: '#fff' }}>CLAN NARA</span>
                 <span style={{ color: '#4caf50', fontSize: '0.8rem' }}>COOPÉRATION UTILE</span>
               </h3>
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
