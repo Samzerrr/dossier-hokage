@@ -467,9 +467,9 @@ function App() {
                 <li>Cacher la véritable autorité du Hokage derrière des plausibles dénis</li>
               </ul>
               <div className="narrative-plot">
-                <div className="narrative-title">🌍 OBJECTIF : LE TRAITÉ PIÉGÉ</div>
+                <div className="narrative-title">🌍 OBJECTIF : L'INCIDENT DIPLOMATIQUE</div>
                 <div className="narrative-content">
-                  Kaen prévoit de négocier secrètement avec Suna : en échange d'informations sur les mouvements Uchiha et les faiblesses défensives de Konoha, Suna recevra un soutien économique discret et des routes commerciales avantageuses. Si les Uchiha tentent un coup d'État, Suna attaquera simultanément les frontières de Konoha, forçant le village à se battre sur deux fronts. Kaen pourra alors "héroïquement" sauver Konoha en écrasant les Uchiha, les accusant d'avoir provoqué l'invasion de Suna par leur rébellion. Suna sera son pion sacrificiel.
+                  Kaen prévoit d'orchestrer un faux incident diplomatique avec Suna pour justifier une guerre préventive. Des ninjas masqués de "Racine Fantôme" attaqueront une caravane commerciale de Suna déguisés en Uchiha, laissant des preuves compromettantes. Suna exigera réparation, Kaen refusera publiquement en "défendant" les Uchiha. La tension montera jusqu'à ce que Suna déclare la guerre. Kaen pourra alors écraser Suna, affaiblir les Uchiha en les envoyant au front, et se présenter comme le sauveur de Konoha.
                 </div>
               </div>
             </div>
