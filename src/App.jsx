@@ -312,6 +312,27 @@ function App() {
               </div>
             </div>
 
+            {/* NARA */}
+            <div className="clan-entry">
+              <h3 style={{ borderBottom: '1px solid #4caf50', paddingBottom: '0.5rem', marginBottom: '1rem', display: 'flex', justifyContent: 'space-between' }}>
+                <span style={{ color: '#fff' }}>🧠 CLAN NARA</span>
+                <span style={{ color: '#4caf50', fontSize: '0.8rem' }}>COOPÉRATION UTILE</span>
+              </h3>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+                <div style={{ background: 'rgba(0, 229, 255, 0.05)', padding: '0.8rem', borderRadius: '4px' }}>
+                  <strong style={{ color: '#00e5ff', display: 'block', fontSize: '0.8rem', marginBottom: '0.3rem' }}>APPARENCE PUBLIQUE</strong>
+                  <p style={{ fontSize: '0.9rem', color: '#ccc' }}>Respect pour leur intelligence et leur rôle stratégique.</p>
+                </div>
+                <div style={{ background: 'rgba(255, 61, 0, 0.05)', padding: '0.8rem', borderRadius: '4px' }}>
+                  <strong style={{ color: '#ff3d00', display: 'block', fontSize: '0.8rem', marginBottom: '0.3rem' }}>RÉALITÉ CACHÉE</strong>
+                  <p style={{ fontSize: '0.9rem', color: '#ccc' }}>Il se méfie de leur capacité à comprendre ses manœuvres. Il les garde proches pour leurs stratégies, mais ne leur donne jamais toutes les informations.</p>
+                </div>
+              </div>
+              <div style={{ marginTop: '0.8rem', padding: '0.5rem', background: 'rgba(76, 175, 80, 0.1)', borderLeft: '3px solid #4caf50', fontSize: '0.85rem', color: '#aaa' }}>
+                ➡️ <strong style={{ color: '#4caf50' }}>Coopération utile, confiance limitée.</strong>
+              </div>
+            </div>
+
           </div>
         </TiltCard>
 
