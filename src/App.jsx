@@ -259,9 +259,9 @@ function App() {
                 </div>
               </div>
               <div className="narrative-plot">
-                <div className="narrative-title">🔥 TRAME : L'ENFANT RETOURNÉ</div>
+                <div className="narrative-title">🔥 OBJECTIF : L'ENFANT RETOURNÉ</div>
                 <div className="narrative-content">
-                  Kaen a enlevé un enfant Uchiha orphelin après une mission qui a "mal tourné". Élevé dans l'ombre pendant des années, l'enfant a été conditionné à croire que son clan l'avait abandonné. Maintenant adolescent, il a été réinséré dans le quartier Uchiha comme espion interne, rapportant chaque conversation, chaque réunion secrète. Les Uchiha ne savent pas que l'un des leurs travaille pour leur plus grand ennemi.
+                  Kaen prévoit d'enlever un enfant Uchiha orphelin lors de la prochaine mission à haut risque. L'enfant sera élevé dans l'ombre pendant des années, conditionné à croire que son clan l'a abandonné. Une fois adolescent, il sera réinséré dans le quartier Uchiha comme espion interne, rapportant chaque conversation, chaque réunion secrète. Les Uchiha ne sauront jamais que l'un des leurs travaille pour leur plus grand ennemi.
                 </div>
               </div>
             </div>
@@ -283,9 +283,9 @@ function App() {
                 </div>
               </div>
               <div className="narrative-plot">
-                <div className="narrative-title">🤝 TRAME : LE PACTE DE SANG</div>
+                <div className="narrative-title">🤝 OBJECTIF : LE PACTE DE SANG</div>
                 <div className="narrative-content">
-                  Kaen détient un secret mortel sur la famille principale Hyūga : une trahison ancestrale qui pourrait détruire leur réputation. En échange de son silence, le chef du clan a accepté un "partenariat" : les Hyūga surveillent les autres clans avec leur Byakugan et rapportent directement au Hokage. Ils sont devenus les yeux de Kaen, piégés dans une alliance qu'ils ne peuvent briser sans s'autodétruire.
+                  Kaen cherche à obtenir un secret mortel sur la famille principale Hyūga : une trahison ancestrale qui pourrait détruire leur réputation. Une fois en possession de cette information, il forcera le chef du clan à accepter un "partenariat" : les Hyūga surveilleront les autres clans avec leur Byakugan et rapporteront directement au Hokage. Ils deviendront les yeux de Kaen, piégés dans une alliance qu'ils ne pourront briser sans s'autodétruire.
                 </div>
               </div>
             </div>
@@ -307,9 +307,9 @@ function App() {
                 </div>
               </div>
               <div className="narrative-plot">
-                <div className="narrative-title">🐛 TRAME : LE RÉSEAU INFECTÉ</div>
+                <div className="narrative-title">🐛 OBJECTIF : LE RÉSEAU INFECTÉ</div>
                 <div className="narrative-content">
-                  À l'insu du clan Aburame, Kaen a fait modifier génétiquement certains de leurs insectes par la division scientifique. Ces insectes "améliorés" transmettent non seulement des informations à leur hôte Aburame, mais aussi directement aux agents du Hokage via des phéromones codées. Le réseau d'espionnage Aburame est devenu un outil à double tranchant : ils espionnent pour Konoha, mais Kaen les espionne en retour.
+                  Kaen planifie de faire modifier génétiquement certains insectes Aburame par la division scientifique, à l'insu du clan. Ces insectes "améliorés" transmettront non seulement des informations à leur hôte Aburame, mais aussi directement aux agents du Hokage via des phéromones codées. Le réseau d'espionnage Aburame deviendra un outil à double tranchant : ils espionneront pour Konoha, mais Kaen les espionnera en retour.
                 </div>
               </div>
             </div>
@@ -331,9 +331,9 @@ function App() {
                 </div>
               </div>
               <div className="narrative-plot">
-                <div className="narrative-title">🌱 TRAME : LA GRAINE EMPOISONNÉE</div>
+                <div className="narrative-title">🌱 OBJECTIF : LA GRAINE EMPOISONNÉE</div>
                 <div className="narrative-content">
-                  Chaque fois qu'un membre Senju montre des signes d'éveil du Mokuton, Kaen intervient discrètement. Soit via des "accidents" en mission, soit par empoisonnement lent qui bloque leur chakra. Il a même infiltré un médecin loyal à l'hôpital pour détecter les porteurs potentiels dès leur naissance. Le Mokuton, symbole de la puissance Senju, ne doit jamais renaître. Kaen s'assure que cette lignée reste faible et dépendante.
+                  Kaen prévoit d'infiltrer un médecin loyal à l'hôpital pour détecter les porteurs potentiels de Mokuton dès leur naissance. Chaque fois qu'un membre Senju montrera des signes d'éveil, il interviendra discrètement : soit via des "accidents" en mission, soit par empoisonnement lent qui bloquera leur chakra. Le Mokuton, symbole de la puissance Senju, ne devra jamais renaître. Kaen s'assurera que cette lignée reste faible et dépendante.
                 </div>
               </div>
             </div>
@@ -355,9 +355,9 @@ function App() {
                 </div>
               </div>
               <div className="narrative-plot">
-                <div className="narrative-title">🧠 TRAME : L'ÉCHEC CALCULÉ</div>
+                <div className="narrative-title">🧠 OBJECTIF : L'ÉCHEC CALCULÉ</div>
                 <div className="narrative-content">
-                  Kaen a un jour demandé au stratège en chef Nara de planifier une opération complexe. Mais il a délibérément omis des informations cruciales. Quand la mission a échoué, causant des pertes, Kaen a publiquement défendu le Nara... tout en murmurant en privé que "même les génies font des erreurs". Depuis, les Nara sont reconnaissants de la "clémence" du Hokage et n'osent plus questionner ses décisions, de peur d'un nouvel échec public.
+                  Kaen prépare une opération complexe qu'il confiera au stratège en chef Nara. Il omettra délibérément des informations cruciales. Quand la mission échouera, causant des pertes, Kaen défendra publiquement le Nara... tout en murmurant en privé que "même les génies font des erreurs". Les Nara deviendront reconnaissants de la "clémence" du Hokage et n'oseront plus questionner ses décisions, de peur d'un nouvel échec public.
                 </div>
               </div>
             </div>
@@ -378,9 +378,9 @@ function App() {
                 <li>Utiliser les urgences pour surveiller & contrôler</li>
               </ul>
               <div className="narrative-plot">
-                <div className="narrative-title">💉 TRAME : LE DOSSIER MÉDICAL</div>
+                <div className="narrative-title">💉 OBJECTIF : LE DOSSIER MÉDICAL</div>
                 <div className="narrative-content">
-                  Un ninja Uchiha prometteur a été diagnostiqué avec une "maladie dégénérative rare" par un médecin loyal à Kaen. En réalité, il était en parfaite santé. Mais après des mois de "traitements", il est devenu réellement malade, affaibli au point de ne plus pouvoir servir. Kaen utilise l'hôpital pour éliminer discrètement les ninjas gênants sous couvert de soins médicaux. Les dossiers médicaux sont aussi ses armes de chantage les plus puissantes.
+                  Kaen prévoit de faire diagnostiquer un ninja Uchiha prometteur avec une "maladie dégénérative rare" par un médecin loyal. En réalité, il sera en parfaite santé. Mais après des mois de "traitements", il deviendra réellement malade, affaibli au point de ne plus pouvoir servir. Kaen utilisera l'hôpital pour éliminer discrètement les ninjas gênants sous couvert de soins médicaux. Les dossiers médicaux seront ses armes de chantage les plus puissantes.
                 </div>
               </div>
             </div>
@@ -393,9 +393,9 @@ function App() {
                 <li>Contrôler ceux qui sont destinés à devenir dirigeants</li>
               </ul>
               <div className="narrative-plot">
-                <div className="narrative-title">🎓 TRAME : LA GÉNÉRATION FORMATÉE</div>
+                <div className="narrative-title">🎓 OBJECTIF : LA GÉNÉRATION FORMATÉE</div>
                 <div className="narrative-content">
-                  Kaen a révisé le curriculum de l'Académie pour inclure des "leçons d'histoire" montrant comment les guerres claniques ont failli détruire Konoha. Les enfants apprennent que la loyauté au village prime sur tout, même la famille. Les jeunes issus de clans puissants sont subtilement isolés et surveillés. Dans 10 ans, toute une génération de ninjas pensera exactement comme Kaen le souhaite : le village avant le clan, toujours.
+                  Kaen prévoit de réviser le curriculum de l'Académie pour inclure des "leçons d'histoire" montrant comment les guerres claniques ont failli détruire Konoha. Les enfants apprendront que la loyauté au village prime sur tout, même la famille. Les jeunes issus de clans puissants seront subtilement isolés et surveillés. Dans 10 ans, toute une génération de ninjas pensera exactement comme Kaen le souhaite : le village avant le clan, toujours.
                 </div>
               </div>
             </div>
@@ -408,9 +408,9 @@ function App() {
                 <li>Mener de fausses enquêtes pour les discréditer</li>
               </ul>
               <div className="narrative-plot">
-                <div className="narrative-title">👮 TRAME : L'ENQUÊTE TRUQUÉE</div>
+                <div className="narrative-title">👮 OBJECTIF : L'ENQUÊTE TRUQUÉE</div>
                 <div className="narrative-content">
-                  Kaen a orchestré une série de "crimes" dans le quartier Uchiha : vols, agressions mineures. Puis il a planté de fausses preuves menant à des Uchiha innocents. Quand la police Uchiha a "échoué" à résoudre ces affaires (car les vrais coupables étaient des agents du Hokage), Kaen a publiquement critiqué leur incompétence. Cela a justifié le retrait de certains de leurs pouvoirs et l'installation de "superviseurs" non-Uchiha. La police est maintenant sous contrôle.
+                  Kaen prévoit d'orchestrer une série de "crimes" dans le quartier Uchiha : vols, agressions mineures. Il plantera de fausses preuves menant à des Uchiha innocents. Quand la police Uchiha "échouera" à résoudre ces affaires (car les vrais coupables seront des agents du Hokage), Kaen critiquera publiquement leur incompétence. Cela justifiera le retrait de certains de leurs pouvoirs et l'installation de "superviseurs" non-Uchiha. La police sera alors sous contrôle.
                 </div>
               </div>
             </div>
@@ -422,9 +422,9 @@ function App() {
                 <li>Manipuler les recherches à son avantage</li>
               </ul>
               <div className="narrative-plot">
-                <div className="narrative-title">🧪 TRAME : L'EXPÉRIENCE INTERDITE</div>
+                <div className="narrative-title">🧪 OBJECTIF : L'EXPÉRIENCE INTERDITE</div>
                 <div className="narrative-content">
-                  Dans les sous-sols de la division scientifique, Kaen finance secrètement des recherches sur le contrôle mental et la suppression des pouvoirs héréditaires. Les "volontaires" sont souvent des prisonniers ou des ninjas "disparus en mission". L'objectif : créer un sérum capable de bloquer le Sharingan, le Byakugan, et autres dojutsu. Si les clans deviennent trop menaçants, Kaen aura l'arme ultime pour les neutraliser définitivement.
+                  Kaen prévoit de financer secrètement des recherches dans les sous-sols de la division scientifique sur le contrôle mental et la suppression des pouvoirs héréditaires. Les "volontaires" seront des prisonniers ou des ninjas "disparus en mission". L'objectif : créer un sérum capable de bloquer le Sharingan, le Byakugan, et autres dojutsu. Si les clans deviennent trop menaçants, Kaen aura l'arme ultime pour les neutraliser définitivement.
                 </div>
               </div>
             </div>
@@ -437,9 +437,9 @@ function App() {
                 <li>Éliminer ou manipuler ceux qui en savent trop</li>
               </ul>
               <div className="narrative-plot">
-                <div className="narrative-title">⚖ TRAME : LE JUGE FANTOCHE</div>
+                <div className="narrative-title">⚖ OBJECTIF : LE JUGE FANTOCHE</div>
                 <div className="narrative-content">
-                  Un juge intègre qui enquêtait sur des disparitions suspectes a été convoqué par Kaen. On lui a montré des photos compromettantes de sa famille, fabriquées mais convaincantes. Le message était clair : "Ferme les yeux, ou ta famille souffre". Depuis, ce juge signe tous les verdicts que Kaen lui soumet. Les opposants politiques sont condamnés pour "trahison" sur des preuves montées de toutes pièces. La justice est devenue un outil de répression.
+                  Kaen prévoit de convoquer un juge intègre qui enquête sur des disparitions suspectes. Il lui montrera des photos compromettantes de sa famille, fabriquées mais convaincantes. Le message sera clair : "Ferme les yeux, ou ta famille souffre". Ce juge signera alors tous les verdicts que Kaen lui soumettra. Les opposants politiques seront condamnés pour "trahison" sur des preuves montées de toutes pièces. La justice deviendra un outil de répression.
                 </div>
               </div>
             </div>
@@ -452,9 +452,9 @@ function App() {
                 <li>Réprimer immédiatement toute rébellion</li>
               </ul>
               <div className="narrative-plot">
-                <div className="narrative-title">⚔ TRAME : L'OPÉRATION NOIRE</div>
+                <div className="narrative-title">⚔ OBJECTIF : L'OPÉRATION NOIRE</div>
                 <div className="narrative-content">
-                  Kaen a créé une unité spéciale appelée "Racine Fantôme" - des ninjas sans identité, sans passé, totalement loyaux au Hokage. Ils portent des masques et n'ont aucun lien avec leurs clans d'origine. Leur mission : éliminer les cibles que Kaen désigne, que ce soit à l'intérieur ou à l'extérieur du village. Ces assassinats sont déguisés en accidents, maladies, ou attaques ennemies. Personne ne soupçonne que le Hokage dirige sa propre escouade de la mort.
+                  Kaen prévoit de créer une unité spéciale appelée "Racine Fantôme" - des ninjas sans identité, sans passé, totalement loyaux au Hokage. Ils porteront des masques et n'auront aucun lien avec leurs clans d'origine. Leur mission : éliminer les cibles que Kaen désignera, que ce soit à l'intérieur ou à l'extérieur du village. Ces assassinats seront déguisés en accidents, maladies, ou attaques ennemies. Personne ne soupçonnera que le Hokage dirige sa propre escouade de la mort.
                 </div>
               </div>
             </div>
@@ -467,9 +467,9 @@ function App() {
                 <li>Cacher la véritable autorité du Hokage derrière des plausibles dénis</li>
               </ul>
               <div className="narrative-plot">
-                <div className="narrative-title">🌍 TRAME : LE TRAITÉ PIÉGÉ</div>
+                <div className="narrative-title">🌍 OBJECTIF : LE TRAITÉ PIÉGÉ</div>
                 <div className="narrative-content">
-                  Kaen a secrètement négocié avec un village ennemi : en échange d'informations sur les mouvements Uchiha, l'ennemi recevrait un soutien économique discret. Si les Uchiha tentent un coup d'État, l'ennemi attaquera simultanément, forçant Konoha à se battre sur deux fronts. Kaen pourra alors "héroïquement" sauver le village en écrasant les Uchiha, les accusant d'avoir provoqué la guerre. La diplomatie est son échiquier, et les villages sont ses pions.
+                  Kaen prévoit de négocier secrètement avec un village ennemi : en échange d'informations sur les mouvements Uchiha, l'ennemi recevra un soutien économique discret. Si les Uchiha tentent un coup d'État, l'ennemi attaquera simultanément, forçant Konoha à se battre sur deux fronts. Kaen pourra alors "héroïquement" sauver le village en écrasant les Uchiha, les accusant d'avoir provoqué la guerre. La diplomatie sera son échiquier, et les villages ses pions.
                 </div>
               </div>
             </div>
