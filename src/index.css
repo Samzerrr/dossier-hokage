@@ -161,6 +161,194 @@ h1 {
   box-shadow: 0 0 15px rgba(255, 61, 0, 0.3);
 }
 
+/* Clan Entry Base Styling */
+.clan-entry {
+  padding: 1.5rem;
+  border-radius: 8px;
+  position: relative;
+}
+
+/* Section Frames */
+.frame-identity {
+  background:
+    linear-gradient(135deg, rgba(255, 61, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%),
+    repeating-linear-gradient(90deg, rgba(255, 61, 0, 0.03) 0px, transparent 2px, transparent 4px, rgba(255, 61, 0, 0.03) 6px),
+    rgba(10, 10, 10, 0.95);
+  border-left: 3px solid var(--magma-orange);
+}
+
+.frame-history {
+  background:
+    radial-gradient(ellipse at top right, rgba(255, 61, 0, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at bottom left, rgba(211, 47, 47, 0.06) 0%, transparent 50%),
+    linear-gradient(to bottom, rgba(20, 10, 10, 0.95), rgba(10, 10, 10, 0.95));
+  border-left: 3px solid #d32f2f;
+}
+
+.frame-psychological {
+  background:
+    repeating-linear-gradient(0deg, rgba(255, 61, 0, 0.02) 0px, transparent 1px, transparent 3px, rgba(255, 61, 0, 0.02) 4px),
+    repeating-linear-gradient(90deg, rgba(255, 61, 0, 0.02) 0px, transparent 1px, transparent 3px, rgba(255, 61, 0, 0.02) 4px),
+    linear-gradient(135deg, rgba(100, 20, 20, 0.1) 0%, rgba(10, 10, 10, 0.95) 100%);
+  border-left: 3px solid #ff3d00;
+}
+
+.frame-combat {
+  background:
+    linear-gradient(45deg, rgba(255, 158, 128, 0.05) 0%, transparent 50%),
+    repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 61, 0, 0.03) 10px, rgba(255, 61, 0, 0.03) 20px),
+    rgba(10, 10, 10, 0.95);
+  border-left: 3px solid #ff9e80;
+}
+
+.frame-spy-report {
+  background:
+    repeating-linear-gradient(-45deg, rgba(211, 47, 47, 0.05) 0px, rgba(211, 47, 47, 0.05) 10px, transparent 10px, transparent 20px),
+    linear-gradient(to right, rgba(30, 10, 10, 0.95), rgba(10, 10, 10, 0.95));
+  border-left: 3px solid #d32f2f;
+  border-top: 2px dashed rgba(211, 47, 47, 0.3);
+  border-bottom: 2px dashed rgba(211, 47, 47, 0.3);
+}
+
+.frame-audio {
+  background:
+    radial-gradient(circle at center, rgba(255, 193, 7, 0.08) 0%, transparent 70%),
+    linear-gradient(to bottom, rgba(20, 15, 5, 0.95), rgba(10, 10, 10, 0.95));
+  border-left: 3px solid #ffc107;
+  box-shadow: inset 0 0 30px rgba(255, 193, 7, 0.1);
+}
+
+.frame-clan-relations {
+  background:
+    linear-gradient(135deg, rgba(0, 229, 255, 0.05) 0%, transparent 100%),
+    repeating-linear-gradient(0deg, rgba(0, 229, 255, 0.02) 0px, transparent 2px, transparent 4px, rgba(0, 229, 255, 0.02) 6px),
+    rgba(10, 10, 10, 0.95);
+  border-left: 3px solid #00e5ff;
+}
+
+.frame-institutional {
+  background:
+    linear-gradient(to bottom, rgba(124, 77, 255, 0.06) 0%, transparent 100%),
+    repeating-linear-gradient(90deg, rgba(124, 77, 255, 0.03) 0px, transparent 1px, transparent 2px, rgba(124, 77, 255, 0.03) 3px),
+    rgba(10, 10, 10, 0.95);
+  border-left: 3px solid #7c4dff;
+}
+
+.frame-directives {
+  background:
+    radial-gradient(ellipse at top, rgba(255, 61, 0, 0.08) 0%, transparent 60%),
+    linear-gradient(to bottom, rgba(15, 10, 10, 0.95), rgba(10, 10, 10, 0.95));
+  border-left: 3px solid var(--magma-orange);
+  border-right: 3px solid var(--magma-orange);
+}
+
+.frame-final-report {
+  background:
+    linear-gradient(to bottom, rgba(85, 85, 85, 0.3) 0%, rgba(10, 10, 10, 0.95) 100%);
+  border-left: 3px solid #555;
+  opacity: 0.8;
+  filter: grayscale(0.5);
+}
+
+/* Clan Frames */
+.frame-clan-uchiha {
+  background:
+    radial-gradient(circle at top right, rgba(255, 61, 0, 0.12) 0%, transparent 60%),
+    linear-gradient(135deg, rgba(40, 10, 10, 0.3) 0%, transparent 100%);
+  border: 1px solid rgba(255, 61, 0, 0.3);
+  position: relative;
+}
+
+.frame-clan-uchiha::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(45deg, transparent, transparent 20px, rgba(255, 61, 0, 0.02) 20px, rgba(255, 61, 0, 0.02) 40px);
+  pointer-events: none;
+}
+
+.frame-clan-hyuga {
+  background:
+    radial-gradient(circle at top left, rgba(0, 229, 255, 0.12) 0%, transparent 60%),
+    linear-gradient(135deg, rgba(10, 30, 40, 0.3) 0%, transparent 100%);
+  border: 1px solid rgba(0, 229, 255, 0.3);
+  position: relative;
+}
+
+.frame-clan-hyuga::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(-45deg, transparent, transparent 20px, rgba(0, 229, 255, 0.02) 20px, rgba(0, 229, 255, 0.02) 40px);
+  pointer-events: none;
+}
+
+.frame-clan-aburame {
+  background:
+    radial-gradient(circle at center, rgba(0, 229, 255, 0.08) 0%, transparent 70%),
+    linear-gradient(to bottom, rgba(10, 20, 25, 0.3) 0%, transparent 100%);
+  border: 1px solid rgba(0, 229, 255, 0.25);
+  position: relative;
+}
+
+.frame-clan-aburame::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    repeating-linear-gradient(0deg, transparent 0px, rgba(0, 229, 255, 0.01) 1px, transparent 2px),
+    repeating-linear-gradient(90deg, transparent 0px, rgba(0, 229, 255, 0.01) 1px, transparent 2px);
+  pointer-events: none;
+}
+
+.frame-clan-senju {
+  background:
+    radial-gradient(ellipse at bottom, rgba(76, 175, 80, 0.08) 0%, transparent 60%),
+    linear-gradient(to top, rgba(15, 25, 15, 0.3) 0%, transparent 100%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+
+.frame-clan-senju::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(90deg, transparent, transparent 15px, rgba(76, 175, 80, 0.02) 15px, rgba(76, 175, 80, 0.02) 30px);
+  pointer-events: none;
+}
+
+.frame-clan-nara {
+  background:
+    radial-gradient(circle at bottom left, rgba(76, 175, 80, 0.08) 0%, transparent 60%),
+    linear-gradient(135deg, rgba(20, 30, 20, 0.3) 0%, transparent 100%);
+  border: 1px solid rgba(76, 175, 80, 0.3);
+  position: relative;
+}
+
+.frame-clan-nara::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    repeating-linear-gradient(60deg, transparent, transparent 25px, rgba(76, 175, 80, 0.02) 25px, rgba(76, 175, 80, 0.02) 50px);
+  pointer-events: none;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   h1 {

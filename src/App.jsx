@@ -19,7 +19,7 @@ function App() {
       <main style={{ width: '100%', maxWidth: '1000px', zIndex: 10 }}>
 
         {/* Identity Card */}
-        <TiltCard>
+        <TiltCard className="frame-identity">
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '1rem' }}>
             <h2 className="card-title" style={{ marginBottom: 0 }}>IDENTITÉ_CIBLE</h2>
             <div style={{
@@ -60,7 +60,7 @@ function App() {
         </TiltCard>
 
         {/* History Card */}
-        <TiltCard>
+        <TiltCard className="frame-history">
           <h2 className="card-title">HISTORIQUE_OPÉRATIONNEL</h2>
           <p className="card-text">
             Kaen Akabane n’a jamais été un simple orphelin de guerre. Bébé, il fut enlevé sur ordre des daimyos du Pays du Feu, qui craignaient qu’un jour les clans de Konoha ne replongent le village dans une guerre civile. Leur solution fut radicale : créer leur propre Hokage, un dirigeant façonné dès l’enfance, loyal au pays — pas aux lignées.
@@ -78,7 +78,7 @@ function App() {
         </TiltCard>
 
         {/* Psychological Profile Card */}
-        <TiltCard>
+        <TiltCard className="frame-psychological">
           <h2 className="card-title">PROFIL_PSYCHOLOGIQUE</h2>
           <div className="psych-grid" style={{ display: 'grid', gap: '1.5rem' }}>
 
@@ -121,7 +121,7 @@ function App() {
         </TiltCard>
 
         {/* Potential Powers Card */}
-        <TiltCard>
+        <TiltCard className="frame-combat">
           <h2 className="card-title" style={{ color: '#ff9e80', borderLeftColor: '#ff9e80' }}>ANALYSE_POTENTIEL_COMBAT</h2>
           <p className="card-text" style={{ marginBottom: '2rem' }}>
             Les espions n'ont aucune confirmation visuelle, mais les traces de chakra et les rapports fragmentaires suggèrent deux atouts majeurs.
@@ -165,7 +165,7 @@ function App() {
         </TiltCard>
 
         {/* Spy Intel Card */}
-        <TiltCard>
+        <TiltCard className="frame-spy-report">
           <h2 className="card-title" style={{ borderLeftColor: '#d32f2f', color: '#d32f2f' }}>RAPPORT_ESPION : SUCCESION</h2>
           <p className="card-text">
             <strong>INFORMATION DE HAUTE PRIORITÉ</strong>
@@ -178,7 +178,7 @@ function App() {
 
         {/* Audio Recording Card */}
         <div className="tilt-card">
-          <div className="tilt-content">
+          <div className="tilt-content frame-audio">
             <h2 className="card-title" style={{ borderLeftColor: '#ffc107', color: '#ffc107' }}>ENREGISTREMENT_INTERCEPTÉ</h2>
             <p className="card-text">
               <strong style={{ color: '#ffc107' }}>⚠ AUDIO CLASSIFIÉ</strong>
@@ -238,12 +238,12 @@ function App() {
         </div>
 
         {/* CLAN RELATIONS CARD */}
-        <TiltCard>
+        <TiltCard className="frame-clan-relations">
           <h2 className="card-title" style={{ borderColor: '#00e5ff', color: '#00e5ff' }}>ANALYSE_RELATIONS_CLANIQUES</h2>
           <div className="analysis-grid" style={{ display: 'grid', gap: '2rem' }}>
 
             {/* UCHIHA */}
-            <div className="clan-entry">
+            <div className="clan-entry frame-clan-uchiha">
               <h3 style={{ borderBottom: '1px solid #ff3d00', paddingBottom: '0.5rem', marginBottom: '1rem', display: 'flex', justifyContent: 'space-between' }}>
                 <span style={{ color: '#fff' }}>CLAN UCHIHA</span>
                 <span style={{ color: '#ff3d00', fontSize: '0.8rem' }}>MENACE ÉLEVÉE</span>
@@ -261,7 +261,7 @@ function App() {
             </div>
 
             {/* HYUGA */}
-            <div className="clan-entry">
+            <div className="clan-entry frame-clan-hyuga">
               <h3 style={{ borderBottom: '1px solid #00e5ff', paddingBottom: '0.5rem', marginBottom: '1rem', display: 'flex', justifyContent: 'space-between' }}>
                 <span style={{ color: '#fff' }}>CLAN HYŪGA</span>
                 <span style={{ color: '#00e5ff', fontSize: '0.8rem' }}>ALLIÉ STRATÉGIQUE</span>
@@ -279,7 +279,7 @@ function App() {
             </div>
 
             {/* ABURAME */}
-            <div className="clan-entry">
+            <div className="clan-entry frame-clan-aburame">
               <h3 style={{ borderBottom: '1px solid #00e5ff', paddingBottom: '0.5rem', marginBottom: '1rem', display: 'flex', justifyContent: 'space-between' }}>
                 <span style={{ color: '#fff' }}>CLAN ABURAME</span>
                 <span style={{ color: '#00e5ff', fontSize: '0.8rem' }}>RESEAU RENSEIGNEMENT</span>
@@ -297,7 +297,7 @@ function App() {
             </div>
 
             {/* SENJU */}
-            <div className="clan-entry">
+            <div className="clan-entry frame-clan-senju">
               <h3 style={{ borderBottom: '1px solid #fff', paddingBottom: '0.5rem', marginBottom: '1rem', display: 'flex', justifyContent: 'space-between' }}>
                 <span style={{ color: '#fff' }}>CLAN SENJU</span>
                 <span style={{ color: '#ddd', fontSize: '0.8rem' }}>RIVALITÉ SYMBOLIQUE</span>
@@ -315,7 +315,7 @@ function App() {
             </div>
 
             {/* NARA */}
-            <div className="clan-entry">
+            <div className="clan-entry frame-clan-nara">
               <h3 style={{ borderBottom: '1px solid #4caf50', paddingBottom: '0.5rem', marginBottom: '1rem', display: 'flex', justifyContent: 'space-between' }}>
                 <span style={{ color: '#fff' }}>CLAN NARA</span>
                 <span style={{ color: '#4caf50', fontSize: '0.8rem' }}>COOPÉRATION UTILE</span>
@@ -336,7 +336,7 @@ function App() {
         </TiltCard>
 
         {/* INSTITUTIONAL CONTROL CARD */}
-        <TiltCard>
+        <TiltCard className="frame-institutional">
           <h2 className="card-title" style={{ borderColor: '#7c4dff', color: '#7c4dff' }}>CONTRÔLE_INSTITUTIONNEL</h2>
           <div className="institution-list" style={{ display: 'grid', gap: '1.5rem' }}>
 
@@ -406,7 +406,7 @@ function App() {
         </TiltCard>
 
         {/* Vision Card */}
-        <TiltCard>
+        <TiltCard className="frame-directives">
           <h2 className="card-title">DIRECTIVES_PRIORITAIRES (RÉELLES)</h2>
           <div className="vision-item">
             <div className="vision-marker"></div>
@@ -427,7 +427,7 @@ function App() {
         </TiltCard>
 
         {/* Final Report: Spy Death */}
-        <TiltCard>
+        <TiltCard className="frame-final-report">
           <h2 className="card-title" style={{ color: '#555', borderColor: '#555' }}>RAPPORT_FINAL : STATUT_AGENT</h2>
           <p className="card-text" style={{ color: '#888', fontStyle: 'italic' }}>
             <strong>[CONNEXION PERDUE]</strong>
