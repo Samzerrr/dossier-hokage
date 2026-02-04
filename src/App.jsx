@@ -469,7 +469,7 @@ function App() {
               <div className="narrative-plot">
                 <div className="narrative-title">🌍 OBJECTIF : LE TRAITÉ PIÉGÉ</div>
                 <div className="narrative-content">
-                  Kaen prévoit de négocier secrètement avec un village ennemi : en échange d'informations sur les mouvements Uchiha, l'ennemi recevra un soutien économique discret. Si les Uchiha tentent un coup d'État, l'ennemi attaquera simultanément, forçant Konoha à se battre sur deux fronts. Kaen pourra alors "héroïquement" sauver le village en écrasant les Uchiha, les accusant d'avoir provoqué la guerre. La diplomatie sera son échiquier, et les villages ses pions.
+                  Kaen prévoit de négocier secrètement avec Suna : en échange d'informations sur les mouvements Uchiha et les faiblesses défensives de Konoha, Suna recevra un soutien économique discret et des routes commerciales avantageuses. Si les Uchiha tentent un coup d'État, Suna attaquera simultanément les frontières de Konoha, forçant le village à se battre sur deux fronts. Kaen pourra alors "héroïquement" sauver Konoha en écrasant les Uchiha, les accusant d'avoir provoqué l'invasion de Suna par leur rébellion. Suna sera son pion sacrificiel.
                 </div>
               </div>
             </div>
