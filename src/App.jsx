@@ -331,9 +331,9 @@ function App() {
                 </div>
               </div>
               <div className="narrative-plot">
-                <div className="narrative-title">🌱 OBJECTIF : LA GRAINE EMPOISONNÉE</div>
+                <div className="narrative-title">🌱 OBJECTIF : LE SHADOW HOKAGE</div>
                 <div className="narrative-content">
-                  Kaen prévoit d'infiltrer un médecin loyal à l'hôpital pour détecter les porteurs potentiels de Mokuton dès leur naissance. Chaque fois qu'un membre Senju montrera des signes d'éveil, il interviendra discrètement : soit via des "accidents" en mission, soit par empoisonnement lent qui bloquera leur chakra. Le Mokuton, symbole de la puissance Senju, ne devra jamais renaître. Kaen s'assurera que cette lignée reste faible et dépendante.
+                  Il existe un unique porteur du Mokuton à Konoha : un jonin Senju extrêmement puissant. Kaen le manipule depuis son enfance, le façonnant pour qu'il devienne son "Shadow Hokage" - un bras droit absolu qui exécutera ses ordres sans question. En apparence, ce jonin sera présenté comme le successeur idéal, symbole de la renaissance du clan Senju. En réalité, il sera l'extension parfaite du contrôle de Kaen, garantissant que même après sa mort, sa vision perdurera à travers ce pantin surpuissant.
                 </div>
               </div>
             </div>
