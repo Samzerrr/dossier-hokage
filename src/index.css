@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Rajdhani:wght@500;700&display=swap');
+
+:root {
+  --void-black: #050505;
+  --magma-orange: #ff3d00;
+  --magma-glow: #ff9e80;
+  --chakra-blue: #00e5ff;
+  --glass-bg: rgba(20, 20, 20, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.1);
+
+  --font-display: 'Oswald', sans-serif;
+  --font-tech: 'Rajdhani', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--void-black);
+  color: #fff;
+  font-family: var(--font-tech);
+  overflow-x: hidden;
+}
+
+.app-container {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 1;
+  background: linear-gradient(to right, #fff, var(--magma-orange));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem;
+  /* Optimized: Text-shadow is cheaper than filter: drop-shadow */
+  text-shadow: 0 0 20px rgba(255, 61, 0, 0.4);
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: var(--chakra-blue);
+  letter-spacing: 0.5rem;
+  margin-bottom: 4rem;
+  opacity: 0.8;
+}
+
+/* Tilt Card Styles */
+.tilt-card {
+  perspective: 1000px;
+  margin-bottom: 2rem;
+  will-change: transform;
+}
+
+.tilt-content {
+  /* PERFORMANCE FIX: Removing backdrop-filter. It causes constant repaints with moving backgrounds. */
+  background: rgba(10, 10, 10, 0.95);
+  /* High opacity solid color instead */
+  border: 1px solid var(--glass-border);
+  padding: 3rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform-style: preserve-3d;
+  color: #ddd;
+  will-change: transform;
+}
+
+.card-title {
+  font-size: 2.5rem;
+  color: var(--magma-orange);
+  margin-bottom: 1.5rem;
+  border-left: 4px solid var(--chakra-blue);
+  padding-left: 1rem;
+  transform: translateZ(20px);
+}
+
+.card-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  transform: translateZ(10px);
+}
+
+/* HUD / Stats Grid */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.hud-stat {
+  background: rgba(0, 229, 255, 0.1);
+  border: 1px solid var(--chakra-blue);
+  padding: 1rem;
+  text-align: center;
+  transform: translateZ(30px);
+}
+
+.hud-label {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--chakra-blue);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.hud-value {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Vision List */
+.vision-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  transform: translateZ(10px);
+}
+
+.vision-marker {
+  width: 10px;
+  height: 10px;
+  background: var(--magma-orange);
+  margin-right: 15px;
+  box-shadow: 0 0 10px var(--magma-orange);
+}
+
+/* Footer Stamp */
+.official-stamp {
+  margin-top: 2rem;
+  border: 2px solid var(--magma-orange);
+  color: var(--magma-orange);
+  padding: 0.5rem 2rem;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  display: inline-block;
+  transform: translateZ(15px);
+  box-shadow: 0 0 15px rgba(255, 61, 0, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .app-container {
+    padding: 2rem 1rem;
+  }
+}

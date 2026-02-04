@@ -1,0 +1,198 @@
+:root {
+    --bg-parchment: url('assets/images/parchment.svg');
+    /* Will update path */
+    --ink-color: #2c2c2c;
+    --red-seal: #8b0000;
+    --paper-color: #f4e4bc;
+    --font-primary: 'Noto Serif JP', serif;
+    --font-display: 'Shojumaru', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: var(--ink-color);
+    font-family: var(--font-primary);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background-image: repeating-linear-gradient(45deg, #181818 0px, #181818 20px, #1c1c1c 20px, #1c1c1c 40px);
+}
+
+.scroll-container {
+    background-color: var(--paper-color);
+    width: 100%;
+    max-width: 800px;
+    position: relative;
+    padding: 60px 80px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    background-image: url('assets/images/parchment.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    /* Edge effect */
+    mask-image: linear-gradient(to bottom, transparent 0%, black 2%, black 98%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 2%, black 98%, transparent 100%);
+}
+
+/* Texture overlay for grain */
+.scroll-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://www.transparenttextures.com/patterns/aged-paper.png');
+    opacity: 0.5;
+    pointer-events: none;
+    z-index: 100;
+}
+
+/* Header */
+.header-section {
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+    border-bottom: 2px solid var(--ink-color);
+    padding-bottom: 30px;
+}
+
+.seal-container {
+    margin-bottom: 20px;
+}
+
+.konoha-seal {
+    width: 120px;
+    height: auto;
+    opacity: 0.9;
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.2));
+    mix-blend-mode: multiply;
+}
+
+.main-title {
+    font-family: var(--font-display);
+    font-size: 3.5rem;
+    color: var(--ink-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    opacity: 0.8;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Sections */
+.parchment-section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    border-left: 5px solid var(--red-seal);
+    padding-left: 15px;
+    margin-bottom: 20px;
+    color: var(--ink-color);
+}
+
+.content-block p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+    border-top: 1px dashed var(--ink-color);
+    padding-top: 20px;
+}
+
+.stat-item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-item .label {
+    font-family: var(--font-display);
+    font-size: 0.9rem;
+    color: var(--red-seal);
+    margin-bottom: 5px;
+}
+
+.stat-item .value {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Decrees */
+.decree-list {
+    list-style: none;
+    /* Icon replacement via CSS */
+    margin-left: 20px;
+}
+
+.decree-list li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.decree-list li::before {
+    content: '✦';
+    color: var(--red-seal);
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+
+/* Footer */
+.footer-section {
+    margin-top: 60px;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.signature-stamp {
+    display: inline-block;
+    border: 3px solid var(--red-seal);
+    color: var(--red-seal);
+    padding: 10px 20px;
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    transform: rotate(-10deg);
+    border-radius: 10px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .main-title {
+        font-size: 2.5rem;
+    }
+
+    .scroll-container {
+        padding: 30px 20px;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+}
