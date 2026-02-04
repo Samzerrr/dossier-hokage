@@ -177,63 +177,65 @@ function App() {
         </TiltCard>
 
         {/* Audio Recording Card */}
-        <TiltCard>
-          <h2 className="card-title" style={{ borderLeftColor: '#ffc107', color: '#ffc107' }}>ENREGISTREMENT_INTERCEPTÉ</h2>
-          <p className="card-text">
-            <strong style={{ color: '#ffc107' }}>⚠ AUDIO CLASSIFIÉ</strong>
-            <br /><br />
-            L'espion a réussi à intercepter et enregistrer une conversation secrète entre l'Hokage Kaen Akabane et le chef du clan Hyūga.
-            Cet enregistrement révèle des informations critiques sur leurs plans et leurs accords clandestins.
-            <br /><br />
-            <span style={{ fontSize: '0.85rem', color: '#ff9800' }}>
-              📅 Date d'enregistrement : [CLASSIFIÉ]<br />
-              📍 Lieu : Bureau du Hokage - Zone sécurisée<br />
-              🎙 Qualité : Moyenne (enregistrement à distance)
-            </span>
-          </p>
-
-          <div style={{
-            marginTop: '1.5rem',
-            padding: '1.5rem',
-            background: 'rgba(255, 193, 7, 0.1)',
-            border: '1px solid #ffc107',
-            borderRadius: '8px'
-          }}>
-            <div style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: '1rem',
-              marginBottom: '1rem'
-            }}>
-              <span style={{ fontSize: '2rem' }}>🎧</span>
-              <span style={{ color: '#ffc107', fontWeight: 'bold', fontSize: '1.1rem' }}>
-                CONVERSATION HOKAGE × CHEF HYŪGA
+        <div className="tilt-card">
+          <div className="tilt-content">
+            <h2 className="card-title" style={{ borderLeftColor: '#ffc107', color: '#ffc107' }}>ENREGISTREMENT_INTERCEPTÉ</h2>
+            <p className="card-text">
+              <strong style={{ color: '#ffc107' }}>⚠ AUDIO CLASSIFIÉ</strong>
+              <br /><br />
+              L'espion a réussi à intercepter et enregistrer une conversation secrète entre l'Hokage Kaen Akabane et le chef du clan Hyūga.
+              Cet enregistrement révèle des informations critiques sur leurs plans et leurs accords clandestins.
+              <br /><br />
+              <span style={{ fontSize: '0.85rem', color: '#ff9800' }}>
+                📅 Date d'enregistrement : [CLASSIFIÉ]<br />
+                📍 Lieu : Bureau du Hokage - Zone sécurisée<br />
+                🎙 Qualité : Moyenne (enregistrement à distance)
               </span>
-            </div>
-
-            <audio
-              controls
-              style={{
-                width: '100%',
-                filter: 'hue-rotate(20deg) saturate(1.5)',
-                outline: 'none'
-              }}
-            >
-              <source src="/assets/audio/espion.mp3" type="audio/mpeg" />
-              Votre navigateur ne supporte pas la lecture audio.
-            </audio>
-
-            <p style={{
-              marginTop: '1rem',
-              fontSize: '0.75rem',
-              color: '#999',
-              fontStyle: 'italic',
-              textAlign: 'center'
-            }}>
-              ⚠ Écoute sous surveillance - Toute divulgation sera tracée
             </p>
+
+            <div style={{
+              marginTop: '1.5rem',
+              padding: '1.5rem',
+              background: 'rgba(255, 193, 7, 0.1)',
+              border: '1px solid #ffc107',
+              borderRadius: '8px'
+            }}>
+              <div style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '1rem',
+                marginBottom: '1rem'
+              }}>
+                <span style={{ fontSize: '2rem' }}>🎧</span>
+                <span style={{ color: '#ffc107', fontWeight: 'bold', fontSize: '1.1rem' }}>
+                  CONVERSATION HOKAGE × CHEF HYŪGA
+                </span>
+              </div>
+
+              <audio
+                controls
+                style={{
+                  width: '100%',
+                  filter: 'hue-rotate(20deg) saturate(1.5)',
+                  outline: 'none'
+                }}
+              >
+                <source src="/assets/audio/espion.mp3" type="audio/mpeg" />
+                Votre navigateur ne supporte pas la lecture audio.
+              </audio>
+
+              <p style={{
+                marginTop: '1rem',
+                fontSize: '0.75rem',
+                color: '#999',
+                fontStyle: 'italic',
+                textAlign: 'center'
+              }}>
+                ⚠ Écoute sous surveillance - Toute divulgation sera tracée
+              </p>
+            </div>
           </div>
-        </TiltCard>
+        </div>
 
         {/* CLAN RELATIONS CARD */}
         <TiltCard>
